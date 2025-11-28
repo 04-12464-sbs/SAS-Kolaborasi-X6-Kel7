@@ -1,0 +1,32 @@
+.font-roboto-slab {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  /* font-weight: <; */
+  font-style: normal;
+}
+
+.font-playwrite {
+  font-family: "Playwrite GB S", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  overscroll-behavior: contain;
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+
+html, body {
+  -webkit-overflow-scrolling: touch; /* iOS momentum */
+}
+
+
+.grow-hover {
+  transition: transform 0.2s ease;
+}
+
+.grow-hover:hover {
+  transform: scale(1.05);
+}

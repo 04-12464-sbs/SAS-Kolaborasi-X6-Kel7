@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Kelompok VII</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="icon" href="/assets/favicon.ico" type="image/x-icon" />
+
+    <!-- font "Roboto Slab" -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font "Playwrite" -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-success font-roboto-slab fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="/assets/Logo_serviam.png" alt="Bootstrap" width="40px" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link text-white fw-bold grow-hover"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-white fw-bold grow-hover"
+                href="#"
+                data-bs-toggle="dropdown"
+                >Isi</a
+              >
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Isi</a></li>
+                <li><a class="dropdown-item" href="#Agama">Agama</a></li>
+                <li><a class="dropdown-item" href="#PP">PP</a></li>
+                <li><a class="dropdown-item" href="#Sejarah">Sejarah</a></li>
+                <li><a class="dropdown-item" href="#PKWU">PKWU</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-white fw-bold grow-hover"
+                href="sumber.html"
+                >Credit & Sumber</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Jumbotron/Hero Section -->
+    <div
+      id="home"
+      class="position-relative text-center text-light font-roboto-slab"
+      style="
+        background-image: url('/assets/background_jumobtron.png');
+        background-size: cover;
+        background-position: center;
+        min-height: 552px;
+      "
+    >
+      <div
+        class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-50"
+      ></div>
+      <div class="position-absolute top-50 start-50 translate-middle">
+        <h1 class="display-5 fw-bold">Isi</h1>
+        <h1 class="h6">Kelompok VII</h1>
+        <h1 class="h6">SAS Kolaborasi 2025</h1>
+      </div>
+    </div>
+
+    <hr class="mx-4" />
+
+    <!-- Section 1 Definisi Korupsi -->
+    <div class="container">
+      <div class="row align-items-center" data-aos="zoom-in-right">
+        <div class="col-12 col-md-6 text-center">
+          <img
+            src="/assets/penyebab-dan-cara-mengatasi-budaya-korupsi.jpg"
+            alt=""
+            class="img-fluid rounded my-4 grow-hover"
+          />
+        </div>
+
+        <div
+          class="col-12 col-md-6 bg-light rounded px-3 px-md-5 my-4"
+          data-aos="zoom-in-up"
+        >
+          <h4 class="text-center font-roboto-slab pt-3">Korupsi</h4>
+          <p class="pt-3 font-roboto-slab text-center">
+            Korupsi merupakan salah satu tantangan terbesar dalam pembangunan
+            dan tata kelola pemerintahan, dimana terjadi penyalahgunaan
+            kekuasaan untuk keuntungan pribadi atau orang lain, yang bisa berupa
+            tindakan tidak jujur seperti suap, penggelapan, atau pemerasan.
+            Korupsi bukan hanya merugikan keuangan negara, tetapi juga mengikis
+            kepercayaan publik dan menghambat kemajuan.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <hr class="mx-4" />
+
+    <!-- Section 2 Data Korupsi -->
+    <div class="container text-center">
+      <p class="my-4 my-md-5 font-roboto-slab h4" data-aos="fade-up">
+        Indonesia mencetak <span class="text-danger fw-bold h3">37 poin</span>
+        pada Indeks Persepsi Korupsi 2024.
+      </p>
+    </div>
+
+    <hr class="mx-4" />
+
+    <!-- Section 3 Data Korupsi more -->
+    <div class="container">
+      <div class="row text-center" data-aos="fade-up" data-aos-duration="3000">
+        <div class="col-12 col-md-3 my-3 grow-hover">
+          <p class="p-3 bg-light rounded">
+            Indeks Korupsi di Indonesia rata-rata mencapai
+          </p>
+        </div>
+
+        <div class="col-12 col-md-3 my-3 grow-hover">
+          <p class="p-3 bg-light rounded">
+            <span class="text-danger fw-bold h3">28,37 Poin</span><br />dari
+            tahun 1995–2024
+          </p>
+        </div>
+
+        <div class="col-12 col-md-3 my-3 grow-hover">
+          <p class="p-3 bg-light rounded">
+            Mencapai titik tertinggi pada 2019 sebesar
+          </p>
+        </div>
+
+        <div class="col-12 col-md-3 my-3 grow-hover">
+          <p class="p-3 bg-light rounded">
+            <span class="text-danger fw-bold h3">40,00 Poin</span><br />dan
+            terendah<br />
+            <span class="text-danger fw-bold h3">17,00 Poin</span> <br />pada
+            1999
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <hr class="mx-4" />
+
+    <!-- Section 4 Tujuan Website -->
+    <div class="container">
+      <div class="row d-flex align-items-center" data-aos="fade-up-right">
+        <div class="col-12 col-md-6 text-center font-roboto-slab my-4">
+          <p>
+            Website ini bertujuan untuk mengenali bagaimana korupsi bekerja,
+            mengapa ia berbahaya, dan bagaimana kita dapat berperan dalam
+            memeranginya. Informasi yang disediakan dirancang untuk membantu
+            siapa pun memahami isu ini secara lebih luas dan objektif.
+          </p>
+        </div>
+        <div class="col-12 col-md-6 text-center" data-aos="fade-left">
+          <img
+            src="/assets/Indonesia__Indeks_Korupsi.png"
+            class="img-fluid grow-hover"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+
+    <hr class="mx-4" />
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2 class="font-roboto-slab">Fakta Unik!</h2>
+          <h3 class="font-roboto-slab">
+            Korupsi Dapat
+            <span style="color: red">Menurunkan Kualitas Air dan Udara</span>
+          </h3>
+          <p class="mx-5 px-5">
+            Ketika pengawasan lingkungan dimanipulasi demi keuntungan perusahaan
+            atau pejabat, dampaknya langsung ke udara, tanah, dan air. Ini
+            secara tidak langsung dapat mengganggu kesehatan manusia.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <hr class="mx-4 mb-5" />
+
+    <!-- Sidebar Mapel + Content (ISI) -->
+    <div class="container-fluid">
+      <div class="row mx-5">
+        <!-- Sidebar -->
+        <div class="col-12 col-lg-3 bg-light p-3 mb-4 me-lg-3 rounded">
+          <span class="fs-4 font-roboto-slab text-center d-block fw-bold"
+            >Mapel</span
+          >
+          <hr />
+
+          <ul class="nav nav-pills flex-column">
+            <li class="nav-item mt-3">
+              <a
+                href="#Agama"
+                class="nav-link bg-success text-light fw-medium grow-hover"
+              >
+                <img
+                  src="/assets/star.png"
+                  width="15px"
+                  style="filter: invert(100%)"
+                />
+                Agama
+              </a>
+            </li>
+
+            <li class="nav-item mt-3">
+              <a
+                href="#PP"
+                class="nav-link bg-success text-light fw-medium grow-hover"
+              >
+                <img
+                  src="/assets/star.png"
+                  width="15px"
+                  style="filter: invert(100%)"
+                />
+                PP
+              </a>
+            </li>
+
+            <li class="nav-item mt-3">
+              <a
+                href="#Sejarah"
+                class="nav-link bg-success text-light fw-medium grow-hover"
+              >
+                <img
+                  src="/assets/star.png"
+                  width="15px"
+                  style="filter: invert(100%)"
+                />
+                Sejarah
+              </a>
+            </li>
+
+            <li class="nav-item mt-3">
+              <a
+                href="#PKWU"
+                class="nav-link bg-success text-light fw-medium grow-hover"
+              >
+                <img
+                  src="/assets/star.png"
+                  width="15px"
+                  style="filter: invert(100%)"
+                />
+                PKWU
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Content -->
+        <div class="col bg-light p-4 rounded">
+          <hr />
+          <h2 id="Agama" class="font-roboto-slab text-center">Agama</h2>
+
+          <p
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
+            Korupsi bukan sekadar angka dalam laporan, tetapi cerita tentang hak
+            yang hilang, lingkungan yang rusak, dan keadilan yang terabaikan.
+            alam pandangan Katolik, setiap tindakan yang merampas kesejahteraan
+            bersama ini termasuk korupsi timah 300 triliun yang pernah terjadi
+            di Indonesia yaitu luka pada tubuh masyarakat dan pada ciptaan Tuhan
+            sendiri.
+          </p>
+
+          <div class="text-center">
+            <img
+              src="/assets/dada01106f9aea4cdf77c0bb3195f5d8.jpg"
+              class="img-fluid mb-4 grow-hover rounded"
+              alt=""
+            />
+          </div>
+
+          <p
+            data-aos="fade-left"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
+            Sumber daya alam yang seharusnya menjadi berkat bagi banyak orang
+            berubah menjadi alat keuntungan segelintir pihak ketika integritas
+            diabaikan. Ketika sumber daya alam yang seharusnya menjadi anugerah
+            bagi seluruh masyarakat dimanfaatkan secara tidak adil demi
+            keuntungan pribadi, kejahatan itu bukan hanya mencederai hukum
+            negara, tetapi juga melanggar amanah moral untuk menjaga ciptaan.
+          </p>
+          <h4 class="text-center font-roboto-slab mt-5">
+            Hubungan dengan 10 Perintah Allah
+          </h4>
+          <div class="container my-4">
+            <div class="row g-4">
+              <!-- Card 1 -->
+              <div class="col-12 col-md-4" data-aos="zoom-in-up">
+                <div class="grow-hover">
+                  <div class="card h-100 shadow-sm">
+                    <div
+                      class="bg-success text-white p-2 rounded-top text-center font-roboto-slab"
+                    >
+                      <h5 class="card-title">
+                        ⑦<br />
+                        Jangan Mencuri
+                      </h5>
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text">
+                        Korupsi pada dasarnya merupakan tindakan pencurian dana
+                        untuk kepentingan pribadi. Hal ini mengaitkan tindakan
+                        korupsi dengan 10 perintah Allah
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 2 -->
+              <div
+                class="col-12 col-md-4"
+                data-aos="zoom-in-up"
+                data-aos-delay="500"
+              >
+                <div class="grow-hover">
+                  <div class="card h-100 shadow-sm">
+                    <div
+                      class="bg-success text-white p-2 rounded-top text-center font-roboto-slab"
+                    >
+                      <h5 class="card-title">
+                        ⑧<br />Jangan Bersaksi Dusta tentang Sesamamu
+                      </h5>
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text">
+                        Perintah ini berkaitan dengan tindakan korupsi karena
+                        keinginan berlebihan akan kekayaan atau kekuasaan yang
+                        bukan haknya yang mendorong seseorang untuk melakukan
+                        tindakan tidak jujur
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 3 -->
+              <div
+                class="col-12 col-md-4"
+                data-aos="zoom-in-up"
+                data-aos-delay="1000"
+              >
+                <div class="grow-hover">
+                  <div class="card h-100 shadow-sm">
+                    <div
+                      class="bg-success text-white p-2 rounded-top text-center font-roboto-slab"
+                    >
+                      <h5 class="card-title">
+                        ⑩ <br />Jangan Mengingini Milik Sesamamu Secara Tidak
+                        Adil
+                      </h5>
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text">
+                        Dalam proses korupsi, terdapat aksi pemalsuan data /
+                        berbohong terhadap orang lain yang melanggar perintah
+                        Allah yang ke-9
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <hr />
+          <h2 id="PP" class="font-roboto-slab text-center">PP</h2>
+
+          <p
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
+            Korupsi merupakan tindakan yang secara jelas melanggar Undang-Undang
+            Dasar Negara Republik Indonesia Tahun 1945 karena bertentangan
+            dengan prinsip dasar penyelenggaraan negara yang bersih, transparan,
+            dan berkeadilan. <br /><br />Sebagai bentuk penyalahgunaan kekuasaan
+            demi kepentingan pribadi atau kelompok, korupsi merusak tatanan
+            pemerintahan, melemahkan kepercayaan publik, serta menghambat upaya
+            mewujudkan kesejahteraan umum sebagaimana diamanatkan dalam
+            Pembukaan UUD 1945 ini dipertegas pada UU No. 31 Tahun 1999 tentang
+            pemberantasan tindak pidana korupsi.
+          </p>
+
+          <div class="text-center">
+            <img
+              src="/assets/Korupsi-babel-768x512.jpeg"
+              class="img-fluid mb-4 rounded grow-hover"
+              alt=""
+            />
+          </div>
+
+          <h4 class="font-roboto-slab text-center mt-5">
+            UU No. 31 Pasal 2 Ayat (1) Tahun 1999 tentang pemberantasan tindak
+            pidana korupsi.
+          </h4>
+          <p class="font-playwrite fw-light mx-5 text-center mb-5">
+            "Setiap orang yang secara melawan hukum melakukan
+            <span class="fw-bold"
+              >perbuatan memperkaya diri sendiri atau orang lain atau suatu
+              korporasi</span
+            >
+            yang dapat
+            <span class="fw-bold"
+              >merugikan keuangan negara atau perekonomian negara</span
+            >, dipidana penjara dengan
+            <span class="fw-bold">penjara seumur hidup</span> atau pidana
+            penjara paling singkat
+            <span class="fw-bold">4 (empat) tahun</span> dan paling lama
+            <span class="fw-bold">20 (dua puluh) tahun</span> dan
+            <span class="fw-bold">denda</span> paling sedikit
+            <span class="fw-bold"
+              >Rp. 200.000.000,00 (dua ratus juta rupiah)</span
+            >
+            dan paling banyak
+            <span class="fw-bold"
+              >Rp. 1.000.000.000,00 (satu milyar rupiah)</span
+            >."
+          </p>
+
+          <p
+            class="text-justify"
+            data-aos="fade-left"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
+            Tindakan ini juga mencemari nilai-nilai moral dan etika dalam
+            kehidupan berbangsa dan bernegara, sehingga pemberantasannya menjadi
+            kewajiban bersama demi menjaga integritas konstitusi dan
+            kelangsungan demokrasi. <br /><br />Tetapi tidak hanya melanggar
+            konstitusi, korupsi juga melanggar hak asasi manusia contohnya
+            ketika pejabat menyalahgunakan anggaran publik, dana yang seharusnya
+            digunakan untuk memenuhi hak warga seperti hak atas pendidikan,
+            kesehatan, pekerjaan layak, dan pelayanan publik menjadi tidak
+            tersalurkan dengan baik.
+          </p>
+
+          <h4 class="text-center font-roboto-slab">Akibat</h4>
+          <div class="container my-4">
+            <div class="row g-4">
+              <!-- Card 1 -->
+              <div class="col-12 col-md-4" data-aos="zoom-in-up">
+                <div class="grow-hover">
+                  <div class="card h-100 shadow-sm">
+                    <div
+                      class="bg-success text-white p-2 rounded-top text-center font-roboto-slab"
+                    >
+                      <h5 class="card-title">Anggaran tidak efektif</h5>
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text">
+                        Korupsi membuat anggaran yang seharusnya digunakan untuk
+                        pembangunan, pendidikan, kesehatan, dan pelayanan publik
+                        hilang atau tidak efektif. Hal ini memperlambat kemajuan
+                        negara dan menurunkan kualitas layanan publik.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 2 -->
+              <div
+                class="col-12 col-md-4"
+                data-aos="zoom-in-up"
+                data-aos-delay="500"
+              >
+                <div class="grow-hover">
+                  <div class="card h-100 shadow-sm">
+                    <div
+                      class="bg-success text-white p-2 rounded-top text-center font-roboto-slab"
+                    >
+                      <h5 class="card-title">Kesenjangan Melebar</h5>
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text">
+                        Korupsi mengalihkan sumber daya dari masyarakat luas ke
+                        segelintir pihak, sehingga memperlebar kesenjangan
+                        sosial dan ekonomi. Kelompok rentan menjadi yang paling
+                        dirugikan.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 3 -->
+              <div
+                class="col-12 col-md-4"
+                data-aos="zoom-in-up"
+                data-aos-delay="1000"
+              >
+                <div class="grow-hover">
+                  <div class="card h-100 shadow-sm">
+                    <div
+                      class="bg-success text-white p-2 rounded-top text-center font-roboto-slab"
+                    >
+                      <h5 class="card-title">Hilangnya Kepercayaan</h5>
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text">
+                        Jika kasus korupsi sering terjadi, masyarakat kehilangan
+                        kepercayaan terhadap institusi negara, aparat penegak
+                        hukum, dan pemimpin politik. Hal ini bisa memperlemah
+                        stabilitas sosial dan demokrasi.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h4 class="text-center font-roboto-slab">Mengapa Bisa Terjadi?</h4>
+          <div class="container my-5">
+            <div class="row align-items-center">
+              <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+                <p
+                  data-aos="fade-right"
+                  data-aos-offset="300"
+                  data-aos-easing="ease-in-sine"
+                >
+                  Korupsi bisa terjadi karena berbagai hal, contohnya dari
+                  faktor individu, struktural, dan budaya. Secara individu
+                  motivasi pribadi seperti keserakahan, kurangnya integritas
+                  moral, dan rasa aman dapat mendorong korupsi. Ini juga
+                  dikarenakan struktural yang masih lemah sehingga ini membuka
+                  luang bagi pejabat serta petinggi petinggi negara untuk
+                  melakukan korupsi. Dari sisi budaya., sekarang ini korupsi
+                  yang seharusnya tidak dinormalisasikan sudah menjadi berita
+                  sehari-hari bagi masyarakat di Indonesia dimana banyak pihak
+                  yang menyuap dan memanfaatkan sistem yang ada.
+                </p>
+              </div>
+
+              <div class="col-12 col-lg-6 text-center">
+                <img
+                  src="assets/antarafoto-harvey-korupsi-tppu-140824-aaa-5-1456203998.webp"
+                  class="img-fluid rounded grow-hover"
+                  alt="Example Image"
+                />
+              </div>
+            </div>
+          </div>
+
+          <hr />
+          <h2 id="Sejarah" class="font-roboto-slab text-center">Sejarah</h2>
+          <div class="container my-4">
+            <div class="row g-4">
+              <div class="col-12 col-lg-6">
+                <img
+                  src="/assets/IMG-Netral-News-Admin-20-42SY8L56I9.jpg"
+                  class="img-fluid rounded grow-hover"
+                />
+                <div class="mt-3">
+                  <p
+                    data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine"
+                  >
+                    Pada catatan sejarah, banyak catatan tercatat mengenai
+                    penggelapan, manipulasi pajak yang terjadi sejak ribuan
+                    tahun lalu. Contohnya pada zaman kerajaan Nusantara dimana
+                    korupsi sudah terjadi dalam bentuk penyalahgunaan wewenang
+                    oleh para pejabat lokal. Banyak dari mereka menarik pajak
+                    dan upeti jauh lebih tinggi dari ketentuan kerajaan, lalu
+                    menyetorkan jumlah yang sudah mereka kurangi kepada pusat.
+                    Tidak hanya itu, dalam sistem agraris, hasil panen yang
+                    seharusnya dipersembahkan kepada kerajaan sering dipotong
+                    atau disembunyikan. Hasil bumi seperti beras, rempah, atau
+                    rotan dijual diam-diam untuk memperkaya diri sendiri.
+                  </p>
+                </div>
+              </div>
+
+              <div
+                class="col-12 col-lg-6 d-flex flex-column justify-content-between"
+              >
+                <div>
+                  <h3 class="text-center font-roboto-slab">
+                    Awal Mula Korupsi
+                  </h3>
+                  <p
+                    data-aos="fade-left"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine"
+                  >
+                    Meskipun mekanisme nya sudah berubah, tetapi bentuk korupsi
+                    di Indonesia pada dasarnya memiliki akar yang sama sejak
+                    zaman dahulu, ini merupakan masalah yang sudah mengakar
+                    sejak manusia mulai membangun sistem kekuasaan, perdagangan,
+                    dan pengelolaan sumber daya. Dari kerajaan-kerajaan kuno,
+                    pemerintahan kolonial, hingga negara modern, penyalahgunaan
+                    wewenang selalu muncul ketika ada kekuasaan, kesempatan, dan
+                    lemahnya pengawasan.
+                  </p>
+                </div>
+
+                <img
+                  src="assets/Ilustrasi-korupsi-sejak-zaman-kerajaan-NET-1.png"
+                  class="img-fluid rounded grow-hover"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div
+                class="col-12"
+                data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+              >
+                Ada juga contoh lain seperti penyelewengan dana desa
+                tradisional, dimana zaman dulu aparat desa pada masa lalu
+                menggunakan dana miliki bersama misalnya panen kolektif untuk
+                kepentingan pribadi. Permasalahan korupsi ini masih terbawa
+                hingga sekarang. Korupsi yang dulu hanya berdampak pada lingkup
+                desa, kini meluas hingga merusak ekosistem, perekonomian, dan
+                masa depan generasi mendatang. <br /><br />Ini menunjukkan bahwa
+                korupsi bukan sekadar masalah hukum, tetapi masalah budaya dan
+                moral yang terus diwariskan jika tidak dihentikan secara serius.
+                Jika di jaman dulu korupsi melalui hasil panen, kini korupsi
+                berkembang menjadi masalah yang jauh lebih serius, dimana
+                sekarang korupsi terjadi pada nilai ekonomi besar dan
+                penyalahgunaan sumber daya.
+              </div>
+              <div class="container my-5">
+                <div class="row align-items-center">
+                  <div class="col-12 col-lg-6 text-center">
+                    <img
+                      src="assets/65ebcbcdb0dda.jpg"
+                      class="img-fluid rounded grow-hover"
+                      alt="Example Image"
+                    />
+                  </div>
+
+                  <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+                    <p
+                      data-aos="fade-left "
+                      data-aos-offset="300"
+                      data-aos-easing="ease-in-sine"
+                    >
+                      Contohnya kasus korupsi timah yang diperkirakan
+                      menyebabkan kerugian negara hingga ratusan triliun rupiah
+                      menjadi salah satu contoh paling nyata bagaimana korupsi
+                      di era modern berkembang dalam skala yang jauh lebih besar
+                      dibandingkan masa lalu. Perkiraan kerugian yang mencapai
+                      angka fantastis tersebut mencerminkan betapa besar nilai
+                      ekonomi sumber daya alam Indonesia, sekaligus betapa
+                      rentannya sektor tersebut ketika integritas tidak dijaga.
+                      Korupsi timah bukan hanya menghantam keuangan negara,
+                      tetapi juga menyebabkan kerusakan lingkungan, hilangnya
+                      pendapatan masyarakat lokal, dan merosotnya kepercayaan
+                      publik terhadap pengelolaan sumber daya.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="PKWU" class="font-roboto-slab text-center">
+            <hr />
+            <h2>PKWU</h2>
+
+            <h3 class="mt-4">Video Pembuatan Sabun</h3>
+
+            <video class="img-fluid w-100" controls>
+              <source
+                src="assets/WhatsApp Video 2025-11-26 at 13.06.59_5918c8be.mp4"
+                type="video/mp4"
+              />
+            </video>
+
+            <p class="fw-light">(Video hasil karya kelompok Callista)</p>
+            <hr />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer
+      class="text-white text-center py-4 bg-success font-roboto-slab mt-5"
+    >
+      <h5>Kelompok VII</h5>
+      <p class="font-playwrite">
+        "Menjadi Pemimpin yang Peduli, Kreatif, dan Berwawasan Global"
+      </p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </body>
+</html>
+
+<script>
+  AOS.init();
+</script>
